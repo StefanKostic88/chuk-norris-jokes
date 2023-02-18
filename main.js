@@ -12,9 +12,6 @@ const getJoke = () => {
       textContainerEl.insertAdjacentHTML("beforeend", paragraphEl);
     });
 };
-
-const x = getJoke();
-
-console.log(x);
+getJoke();
 
 btn.addEventListener("click", getJoke);
